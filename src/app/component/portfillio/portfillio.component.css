@@ -1,0 +1,32 @@
+.label{
+    
+    font-size: 2.25rem;
+    line-height: 2rem;
+    font-weight: bold;
+    padding-top: 20px;
+    color: var(--lable)!important;
+        
+    
+}
+.icons::after,.icons::before{
+    background-color: var(--lable)
+}
+.icon-start{
+    color: var(--lable)
+}
+.portifillo-item{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition:all .5s ease;
+    cursor: pointer;
+    background-color: rgba(26, 188, 156, 0.9);
+  
+}
+.portifillo-item:hover{
+  opacity: 1;
+  /* margin: 0 30px; */
+}

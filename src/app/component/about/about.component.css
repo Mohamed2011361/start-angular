@@ -1,0 +1,17 @@
+.about-details{
+    background: var(--green);
+    height:calc(100vh - 100px);
+    margin-top: 100px;
+    padding-top: 100px;
+}
+.bb{
+    margin-left: auto;
+    padding-left: 60px;
+}
+.cc{
+    margin-right: auto;
+    padding-right: 60px;
+}
+.about-info{
+   margin: 0px  30px 
+}

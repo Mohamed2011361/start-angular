@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+:root{
+  --lable:#2c3e50;
+  --green: #1abc9c;
+  --white:#efefef;
+}
+.container{
+    width: 75% !important;
+}
+i{
+    color: #efefee;
+}
+.icons{
+    padding-top: 10px;
+    font-size: 30px;
+}
+.icons::after,.icons::before{
+    content: '';
+    width: 110px;
+    height: 5px;
+    position: absolute;
+    background:#efefef;
+}
+.icons::before{
+    margin: 20px 0px 0 -150px ;
+
+  }
+  .icons::after{
+    margin: -24px 80px 10px 40px ;
+  } 
+  .page-section {
+    padding: 6rem 0;
+  }
